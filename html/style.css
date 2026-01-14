@@ -1,0 +1,76 @@
+body,
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100vw;
+    background: url(fondo.jpg) center center;
+    background-size: cover;
+    color: white;
+
+}
+
+/* imagen del logo de la fcc*/
+img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    max-width: 300px;
+    height: auto;
+}
+
+/*para que podamos distingir el color del link*/
+a {
+    color: white;
+}
+
+.tabla {
+    color: white;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.contenedorTabla {
+    position: absolute;
+    top: 45%;
+    left: 80%;
+    text-align: center;
+    color: white;
+}
+
+.tabla th,
+.tabla td {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: left;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(5, 51, 137, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    background-color: rgb(253, 177, 12);
+    color: darkblue;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+
+button:hover {
+    background-color: rgb(25, 0, 108);
+    color: rgb(253, 177, 12);
+}
